@@ -7,7 +7,23 @@ body {
     background-color: #E5E5E5;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+
 /* ------top players style------ */
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+}
+
 .players {
     display: grid;
     /* grid-template-columns: repeat (3, 1fr ); */
@@ -23,4 +39,8 @@ body {
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
 }
